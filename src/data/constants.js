@@ -330,7 +330,7 @@ export const Bio = {
     {
       id: 4,
       title: "Password Generator",
-      date: "March 2022",
+      date: "December 2021",
       description:
         "A Simple app Used for generating strong, secure passwords which can be customized, encrypted and decrypted and saved for future use.",
       image:
