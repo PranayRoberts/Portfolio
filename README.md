@@ -1,8 +1,8 @@
 # Pranay Roberts - Developer Portfolio
 
-This is a personal developer portfolio built with React, designed to showcase your skills, experience, education, and projects in a modern, responsive web app. You can easily customize the content by editing the data files.
+A modern, responsive developer portfolio built with React. This portfolio showcases your bio, skills, work experience, education, and projects, and is easily customizable through a single data file.
 
-## Features
+## ✨ Features
 - **Bio Section:** Brief introduction and social links
 - **Skills:** Categorized technical skills with icons
 - **Experience:** Work history with roles, companies, and skills used
@@ -11,83 +11,43 @@ This is a personal developer portfolio built with React, designed to showcase yo
 - **Contact:** Ways to reach out (socials, email, etc.)
 - **Dark/Light Theme Toggle**
 
-## Tech Stack
+## 🛠 Tech Stack
 - React (Create React App)
 - Styled-components for styling
 - Responsive design for all devices
 
-## Customization
-All content (bio, skills, experience, education, projects) is managed in the `src/data/constants.js` file. Update this file to personalize your portfolio.
+## 📝 Customization
+All content (bio, skills, experience, education, projects) is managed in the [`src/data/constants.js`](src/data/constants.js) file.  
+Update this file to personalize your portfolio—no need to touch component code for content changes.
+
+## 🚀 Getting Started
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Start the development server:**
+   ```bash
+   npm start
+   ```
+   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 🌐 Live Demo
+
+Check out the deployed portfolio here: [portfolio-pranay-roberts.vercel.app](https://portfolio-pranay-roberts.vercel.app/)
+
+## 📁 Project Structure
+
+- `src/data/constants.js` – All your portfolio data (bio, skills, experience, education, projects)
+- `src/components/` – All React components (Cards, Sections, etc.)
+- `src/App.js` – Main app component
 
 ---
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2025 Pranay Roberts
