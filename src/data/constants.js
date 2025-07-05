@@ -203,7 +203,7 @@ export const Bio = {
       date: "Apr 2016 - Apr 2018",
       grade: "89%",
       desc: "I completed my class 12 high school education at Bishop Cotton Boys' School, Bangalore, where I studied Science with Computer Science.",
-      degree: "ISC(XII), Science with Computer",
+      degree: "ISC (Class XII), Science with Computer",
     },
     {
       id: 2,
@@ -212,7 +212,7 @@ export const Bio = {
       date: "Apr 2016",
       grade: "83%",
       desc: "I completed my class 10 education at Bishop Cotton Boys' School, Bangalore, where I studied Science with Computer Application.",
-      degree: "ICSE(X), Science with Computer",
+      degree: "ICSE (Class X), Science with Computer",
     },
   ];
   
