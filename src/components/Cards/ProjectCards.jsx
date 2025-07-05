@@ -126,9 +126,9 @@ const ProjectCards = ({project,setOpenModal}) => {
     return (
         <Card onClick={() => setOpenModal({state: true, project: project})}>
             <Image 
-                src={project.image ? project.image : "https://via.placeholder.com/300x200?text=No+Image"}
+                src={project.image ? project.image : "https://dummyimage.com/300x200/cccccc/000000&text=No+Image"}
                 alt={project.title}
-                onError={e => { e.target.onerror = null; e.target.src = "https://via.placeholder.com/300x200?text=No+Image"; }}
+                onError={e => { e.target.onerror = null; e.target.src = "https://dummyimage.com/300x200/cccccc/000000&text=No+Image"; }}
             />
             <Tags>
                 {project.tags?.map((tag, index) => (

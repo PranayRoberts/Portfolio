@@ -188,26 +188,53 @@ export const Bio = {
     {
       id: 1,
       img: "https://upload.wikimedia.org/wikipedia/en/d/d1/Bishop_Cotton_Schools_crest.png",
-      school: "Biship Cotton Boys' School",
+      school: "Bishop Cotton Boys' School",
       date: "Apr 2016 - Apr 2018",
       grade: "89%",
-      desc: "I completed my class 12 high school education at Biship Cotton Boys' School, Bangalore, where I studied Science with Computer Science.",
+      desc: "I completed my class 12 high school education at Bishop Cotton Boys' School, Bangalore, where I studied Science with Computer Science.",
       degree: "ISC(XII), Science with Computer",
     },
     {
       id: 2,
       img: "https://upload.wikimedia.org/wikipedia/en/d/d1/Bishop_Cotton_Schools_crest.png",
-      school: "Biship Cotton Boys' School",
+      school: "Bishop Cotton Boys' School",
       date: "Apr 2016",
       grade: "92%",
-      desc: "I completed my class 10 education at Biship Cotton Boys' School, Bangalore, where I studied Science with Computer Application.",
+      desc: "I completed my class 10 education at Bishop Cotton Boys' School, Bangalore, where I studied Science with Computer Application.",
       degree: "ICSE(X), Science with Computer",
     },
   ];
   
   export const projects = [
     {
-      id: 9,
+      id: 1,
+      title: "StateOfCinema",
+      date: "October 2023",
+      description:
+        "StateOfCinema is a React-powered movie discovery app that lets users browse, search, and filter films by popularity, rating, and release date using data from TMDb. With features like dark mode and a fully responsive design, it offers a smooth and engaging experience for every movie buff.",
+      image:
+        "https://res.cloudinary.com/dqrtkgjzi/image/upload/v1751713113/StateOfCinema_Dark_bzy5b1.png",
+      tags: [
+        "React Js",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Git",
+        "Vite",
+        "Lodash",
+        "CSS Modules",
+        "TMDb API",
+        "Axios",
+        "React Router",
+        "Vercel",
+        "Responsive Design",
+      ],
+      category: "web app",
+      github: "https://github.com/PranayRoberts/StateOfCinema",
+      webapp: "https://state-of-cinema.vercel.app/",
+    },
+    {
+      id: 2,
       title: "King Flyer",
       date: "March 2022",
       description:
@@ -229,7 +256,6 @@ export const Bio = {
       ],
       category: "web app",
       github: "https://github.com/PranayRoberts/KingFlyer",
-      webapp: "https://github.com/PranayRoberts/KingFlyer_BackEnd",
        member: [
         {
           name: "Pranay Roberts",
