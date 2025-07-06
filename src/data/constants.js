@@ -6,7 +6,7 @@ export const Bio = {
       "Programmer",
     ],
     description:
-      "I aim to deepen my expertise in programming by engaging with diverse technologies across both software and hardware domains. Through this, I hope to design impactful and innovative solutions that address real-world challenges and advance the field of computing.",
+      "I am committed to continually deepening my expertise in programming by working with diverse technologies across both software and hardware domains. Through this, I strive to design impactful, innovative solutions that address real-world challenges and advance the field of computer science.",
     github: "https://github.com/PranayRoberts",
     resume:
       "https://drive.google.com/file/d/1sie3Dyq_ce1t_fvb3QXtnM8NTzRnSZLV/view?usp=sharinghttps://drive.google.com/file/d/16ED-fEotINe0UCsuf3WnJ1V6FWP8H-bm/view?usp=sharing",
@@ -189,12 +189,12 @@ export const Bio = {
   export const education = [
     {
       id: 0,
-      img: "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/Presidency_University%2C_Bangalore_logo.svg/220px-Presidency_University%2C_Bangalore_logo.svg.png",
-      school: "Presidency University, Bangalore",
-      date: "Oct 2018 - Sep 2022",
-      grade: "8.98 CGPA",
-      desc: "I haved pursued a Bachelor's degree in Computer Science and Engineering at Presidency University, Bangalore. I have completed all semesters and have a CGPA of 8.98. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I was also a member of the Google Developers Student Club (GDSC) at PRESU, where I have  learnt and worked on exciting projects with a team of talented developers.",
-      degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+      img: "https://upload.wikimedia.org/wikipedia/en/d/d1/Bishop_Cotton_Schools_crest.png",
+      school: "Bishop Cotton Boys' School",
+      date: "Apr 2016",
+      grade: "83%",
+      desc: "I completed my class 10 education at Bishop Cotton Boys' School, Bangalore, where I studied Science with Computer Application.",
+      degree: "ICSE (Class X), Science with Computer",
     },
     {
       id: 1,
@@ -207,13 +207,13 @@ export const Bio = {
     },
     {
       id: 2,
-      img: "https://upload.wikimedia.org/wikipedia/en/d/d1/Bishop_Cotton_Schools_crest.png",
-      school: "Bishop Cotton Boys' School",
-      date: "Apr 2016",
-      grade: "83%",
-      desc: "I completed my class 10 education at Bishop Cotton Boys' School, Bangalore, where I studied Science with Computer Application.",
-      degree: "ICSE (Class X), Science with Computer",
-    },
+      img: "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/Presidency_University%2C_Bangalore_logo.svg/220px-Presidency_University%2C_Bangalore_logo.svg.png",
+      school: "Presidency University, Bangalore",
+      date: "Oct 2018 - Sep 2022",
+      grade: "8.98 CGPA",
+      desc: "I haved pursued a Bachelor's degree in Computer Science and Engineering at Presidency University, Bangalore. I have completed all semesters and have a CGPA of 8.98. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I was also a member of the Google Developers Student Club (GDSC) at PRESU, where I have  learnt and worked on exciting projects with a team of talented developers.",
+      degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    }
   ];
   
   export const projects = [
@@ -224,7 +224,7 @@ export const Bio = {
       description:
         "StateOfCinema is a React-powered movie discovery app that lets users browse, search, and filter films by popularity, rating, and release date using data from TMDb. With features like dark mode and a fully responsive design, it offers a smooth and engaging experience for every movie buff.",
       image:
-        "https://res.cloudinary.com/dqrtkgjzi/image/upload/v1751713113/StateOfCinema_Dark_bzy5b1.png",
+        "https://res.cloudinary.com/dqrtkgjzi/image/upload/v1751800424/StateOfCinema_hi7zov.jpg",
       tags: [
         "React Js",
         "HTML",
@@ -289,7 +289,7 @@ export const Bio = {
       description:
         "Built a modern, responsive travel website - PranayOnTheGo showcase using Next.js, and Tailwind CSS featuring interactive components and a clean, mobile-friendly layout.",
       image:
-        "https://res.cloudinary.com/dqrtkgjzi/image/upload/v1751725046/PranayOnTheGo_ub7yeq.png",
+        "https://res.cloudinary.com/dqrtkgjzi/image/upload/v1751801039/PranayOnTheGo_2_c7vmzv.jpg",
       tags: [
         "Next.js",
         "React",
