@@ -18,7 +18,7 @@ A modern, responsive developer portfolio built with React. This portfolio showca
 
 ## 📝 Customization
 All content (bio, skills, experience, education, projects) is managed in the [`src/data/constants.js`](src/data/constants.js) file.  
-Update this file to personalize your portfolio—no need to touch component code for content changes.
+Update this file to personalize the portfolio—no need to touch component code for content changes.
 
 ## 🚀 Getting Started
 
