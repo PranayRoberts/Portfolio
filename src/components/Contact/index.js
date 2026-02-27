@@ -143,9 +143,12 @@ const Contact = () => {
     <Container id="contact">
       <Wrapper>
         <Title>Contact</Title>
-        <Desc>Feel free to reach out to me via email for any questions or opportunities!</Desc>
+        <Desc>Feel free to reach out to me via email or phone for any questions or opportunities! </Desc> 
+        <Desc>Email: pranayroberts@gmail.com </Desc> 
+        <Desc>Phone (IN): +91 9986255560 </Desc> 
+        <Desc>Phone (AU): +61 410 090 638 </Desc>
         <ContactForm ref={form} onSubmit={sendEmail}>
-          <ContactTitle>Contact Me! 🚀</ContactTitle>
+          <ContactTitle>Contact Me!</ContactTitle>
           <ContactInput placeholder="Your Email" name="to_name" />
           <ContactInput placeholder="Your Name" type='text' name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
