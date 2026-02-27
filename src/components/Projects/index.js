@@ -27,7 +27,11 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APPS</ToggleButton>
           }
           <Divider />
-          
+          {toggle === 'data analysis' ?
+            <ToggleButton active value="data analysis" onClick={() => setToggle('data analysis')}>DATA ANALYSIS</ToggleButton>
+            :
+            <ToggleButton value="data analysis" onClick={() => setToggle('data analysis')}>DATA ANALYSIS</ToggleButton>
+          }
           <Divider />
           {toggle === 'others' ?
             <ToggleButton active value="others" onClick={() => setToggle('others')}>OTHERS</ToggleButton>

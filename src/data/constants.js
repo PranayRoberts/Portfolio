@@ -3,13 +3,14 @@ export const Bio = {
     roles: [
       "Full Stack Developer",
       "UI/UX Designer",
-      "Programmer",
+      "Data Analyst",
     ],
     description:
-      "I am committed to continually deepening my expertise in programming by working with diverse technologies across both software and hardware domains. Through this, I strive to design impactful, innovative solutions that address real-world challenges and advance the field of computer science.",
+      // "I am committed to continually deepening my expertise in programming by working with diverse technologies across both software and hardware domains. Through this, I strive to design impactful, innovative solutions that address real-world challenges and advance the field of computer science.",
+      "Master of Data Science student at with a strong foundation in Python, data visualization, and full-stack development. Experienced in building interactive web applications, performing data analysis, and deploying projects using modern frameworks. Passionate about applying machine learning, AI and data-driven insights to solve real-world problems.",
     github: "https://github.com/PranayRoberts",
     resume:
-      "https://drive.google.com/file/d/1sie3Dyq_ce1t_fvb3QXtnM8NTzRnSZLV/view?usp=sharinghttps://drive.google.com/file/d/16ED-fEotINe0UCsuf3WnJ1V6FWP8H-bm/view?usp=sharing",
+      "https://docs.google.com/document/d/1urTtKypgRPkHu9Vq3Q7UkT7vtq8N8rZ-da7_c6KYyeo/edit?tab=t.0#heading=h.5rf9wr4r3no2",
     linkedin: "https://www.linkedin.com/in/pranay-roberts/",
     twitter: "https://twitter.com/pranay_roberts",
     insta: "https://www.instagram.com/pranayroberts/",
@@ -167,7 +168,7 @@ export const Bio = {
       img: "https://companieslogo.com/img/orig/CAP.PA-9b4110b0.png?t=1651902188",
       role: "Software and Network Engineer",
       company: "Capgemini",
-      date: "September 2022 - Present",
+      date: "Jan 2023 - Oct 2025",
       desc: "Working in a Cisco Project and focussing on how to design, implement, and maintain an organization's computer networks and udnerstanding the infrastructure that allows communication between devices",
       skills: [
         "C Programming",
@@ -183,7 +184,42 @@ export const Bio = {
         "Bash"
       ],
       doc: "https://drive.google.com/file/d/1HD3mPkAQ_Mvw0wLsbBL_ZgBtITNjvmHj/view?usp=sharing",
-    },   
+    },
+    {
+      id: 2,
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Child_Rights_and_You_%28CRY%29_Organization_logo.png/250px-Child_Rights_and_You_%28CRY%29_Organization_logo.png",
+      role: "Data Analyst Intern",
+      company: "CRY (Child Rights and You)",
+      date: "Nov 2025 - Feb 2026",
+      desc: "Developed and maintained a React‑TypeScript dashboard for visualising child‑welfare datasets (nutrition, education, risk, etc.) using geo‑json, charts and tables. Built Python data‑processing scripts to clean, transform and aggregate large JSON/Excel inputs, generate analytics, and support Tableau integration. Implemented reusable components (Charts, DataTable, Modal, etc.) and custom hooks (useData) to ensure modular, maintainable front‑end code. Collaborated with stakeholders to define schema, reports and insights; automated generation of advanced analytics, vulnerability and insights datasets. Improved data quality by writing utilities to handle NaNs, merge regional/district information and validate schemas. Documented setup, usage and integration steps (README, guides) for future team members.",
+      skills: [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "React Router",
+        "Plotly",
+        "Recharts",
+        "Axios",
+        "PapaParse",
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "Vite",
+        "Node.js",
+        "npm",
+        "ESLint",
+        "Git",
+        "Python",
+        "pandas",
+        "numpy",
+        "openpyxl",
+        "Bash",
+        "JSON",
+        "GeoJSON",
+        "Excel/CSV data processing"
+      ],
+      doc: "",
+    },
   ];
   
   export const education = [
@@ -193,8 +229,8 @@ export const Bio = {
       school: "Bishop Cotton Boys' School",
       date: "Apr 2016",
       grade: "83%",
-      desc: "I completed my class 10 education at Bishop Cotton Boys' School, Bangalore, where I studied Science with Computer Application.",
-      degree: "ICSE (Class X), Science with Computer",
+      desc: "I completed my class 10 education at Bishop Cotton Boys' School, Bangalore, where I studied Science.",
+      degree: "ICSE (Class X), Science with Computer Science",
     },
     {
       id: 1,
@@ -202,8 +238,8 @@ export const Bio = {
       school: "Bishop Cotton Boys' School",
       date: "Apr 2016 - Apr 2018",
       grade: "89%",
-      desc: "I completed my class 12 high school education at Bishop Cotton Boys' School, Bangalore, where I studied Science with Computer Science.",
-      degree: "ISC (Class XII), Science with Computer",
+      desc: "I completed my class 12 high school education at Bishop Cotton Boys' School, Bangalore, where I studied Science. I took Physics, Chemistry, Mathematics, and Computer Science as my subjects. I was actively involved in various extracurricular activities, including sports, Model United Nations (MUN), HeForShe (gender equality movement) and coding competitions, which helped me develop a well-rounded skill set.",
+      degree: "ISC (Class XII), Science with Computer Science",
     },
     {
       id: 2,
@@ -211,8 +247,17 @@ export const Bio = {
       school: "Presidency University, Bangalore",
       date: "Oct 2018 - Sep 2022",
       grade: "8.98 CGPA",
-      desc: "I haved pursued a Bachelor's degree in Computer Science and Engineering at Presidency University, Bangalore. I have completed all semesters and have a CGPA of 8.98. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I was also a member of the Google Developers Student Club (GDSC) at PRESU, where I have  learnt and worked on exciting projects with a team of talented developers.",
+      desc: "I have pursued a Bachelor's degree in Computer Science and Engineering at Presidency University, Bangalore. I have completed all semesters and have a CGPA of 8.98. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I was also a member of the Google Developers Student Club (GDSC) at PRESU, where I have  learnt and worked on exciting projects with a team of talented developers.",
       degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    },
+    {
+      id: 3,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ98GwmnhIEYPPSJwm7TB9fE78gufrU1dzUOw&s",
+      school: "Monash University, Clayton Campus",
+      date: "March 2026 - Present",
+      grade: "",
+      desc: "",
+      degree: "Master of Data Science",
     }
   ];
   
@@ -305,7 +350,44 @@ export const Bio = {
       webapp: "https://pranay-on-the-go.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
+      title: "Data Analysis - Child Rights and You (CRY)",
+      date: "February 2026",
+      description:
+        "Developed and maintained a React‑TypeScript dashboard for visualising child‑welfare datasets (nutrition, education, risk, etc.) using geo‑json, charts and tables.",
+      image: "https://res.cloudinary.com/dqrtkgjzi/image/upload/v1772189051/CRY_Data_Analysis_Dashboard_baasht.png",
+      tags: [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "React Router",
+        "Plotly",
+        "Recharts",
+        "Axios",
+        "PapaParse",
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "Vite",
+        "Node.js",
+        "npm",
+        "ESLint",
+        "Git",
+        "Python",
+        "pandas",
+        "numpy",
+        "openpyxl",
+        "Bash",
+        "JSON",
+        "GeoJSON",
+        "Excel/CSV data processing"
+      ],
+      category: "data analysis",
+      github: "https://github.com/PranayRoberts/cry-data-analysis",
+      webapp: "https://cry-data-analysis.vercel.app/",
+    },
+    {
+      id: 5,
       title: "Data Visualization - Amazon Reviews",
       date: "March 2022",
       description:
@@ -323,12 +405,12 @@ export const Bio = {
         "Exploratory Data Analysis",
         "Charts"
       ],
-      category: "others",
+      category: "data analysis",
       github: "https://github.com/PranayRoberts/Data-Visualization-Amazon-Reviews",
       webapp: "https://colab.research.google.com/drive/1KAU-8g1IwMrSS31e7w_vfLstREKZLccY?usp=sharing",
     },
     {
-      id: 4,
+      id: 6,
       title: "Password Generator",
       date: "December 2021",
       description:
