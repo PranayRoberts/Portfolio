@@ -7,7 +7,7 @@ export const Bio = {
     ],
     description:
       // "I am committed to continually deepening my expertise in programming by working with diverse technologies across both software and hardware domains. Through this, I strive to design impactful, innovative solutions that address real-world challenges and advance the field of computer science.",
-      "Master of Data Science student at with a strong foundation in Python, data visualization, and full-stack development. Experienced in building interactive web applications, performing data analysis, and deploying projects using modern frameworks. Passionate about applying machine learning, AI and data-driven insights to solve real-world problems.",
+      "Master of Data Science student with a strong foundation in Python, data visualization, and full-stack development. Experienced in building interactive web applications, performing data analysis, and deploying projects using modern frameworks. Passionate about applying machine learning, AI and data-driven insights to solve real-world problems.",
     github: "https://github.com/PranayRoberts",
     resume:
       "https://docs.google.com/document/d/1urTtKypgRPkHu9Vq3Q7UkT7vtq8N8rZ-da7_c6KYyeo/edit?tab=t.0#heading=h.5rf9wr4r3no2",
