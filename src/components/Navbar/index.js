@@ -25,7 +25,7 @@ const Navbar = ({setDarkMode, darkMode}) => {
     <Nav>
       <NavbarContainer>
         <NavLogo onClick={scrollToTop}>
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+          <a href="#" style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }} onClick={(e) => e.preventDefault()}>
             <DiCssdeck size="3rem" color='rgb(133, 76, 230)' /> <Span>PR</Span>
           </a>
         </NavLogo>
