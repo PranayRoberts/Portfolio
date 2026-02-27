@@ -25,9 +25,9 @@ const Navbar = ({setDarkMode, darkMode}) => {
     <Nav>
       <NavbarContainer>
         <NavLogo onClick={scrollToTop}>
-          <a href="#" style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }} onClick={(e) => e.preventDefault()}>
+          <button style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer', background: 'none', border: 'none', padding: 0 }} aria-label="Portfolio Home">
             <DiCssdeck size="3rem" color='rgb(133, 76, 230)' /> <Span>PR</Span>
-          </a>
+          </button>
         </NavLogo>
         <MobileIcon>
           <FaBars onClick={() => {
