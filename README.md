@@ -1,8 +1,8 @@
-# Pranay Roberts - Developer Portfolio
+# Pranay Roberts - My Developer Portfolio
 
 A modern, responsive developer portfolio built with React. This portfolio showcases your bio, skills, work experience, education, and projects, and is easily customizable through a single data file.
 
-## ✨ Features
+## Features
 - **Bio Section:** Brief introduction and social links
 - **Skills:** Categorized technical skills with icons
 - **Experience:** Work history with roles, companies, and skills used
@@ -11,16 +11,16 @@ A modern, responsive developer portfolio built with React. This portfolio showca
 - **Contact:** Ways to reach out (socials, email, etc.)
 - **Dark/Light Theme Toggle**
 
-## 🛠 Tech Stack
+## Tech Stack
 - React (Create React App)
 - Styled-components for styling
 - Responsive design for all devices
 
-## 📝 Customization
+## Customization
 All content (bio, skills, experience, education, projects) is managed in the [`src/data/constants.js`](src/data/constants.js) file.  
 Update this file to personalize the portfolio—no need to touch component code for content changes.
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Install dependencies:**
    ```bash
@@ -38,16 +38,16 @@ Update this file to personalize the portfolio—no need to touch component code 
    npm run build
    ```
 
-## 🌐 Live Demo
+## Live Demo
 
 Check out the deployed portfolio here: [portfolio-pranay-roberts.vercel.app](https://portfolio-pranay-roberts.vercel.app/)
 
-## 📁 Project Structure
+## Project Structure
 
-- `src/data/constants.js` – All your portfolio data (bio, skills, experience, education, projects)
+- `src/data/constants.js` – All my portfolio data (bio, skills, experience, education, projects)
 - `src/components/` – All React components (Cards, Sections, etc.)
 - `src/App.js` – Main app component
 
 ---
 
-© 2025 Pranay Roberts
+© Pranay Roberts
