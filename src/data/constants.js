@@ -169,7 +169,7 @@ export const Bio = {
       role: "Software and Network Engineer",
       company: "Capgemini",
       date: "Jan 2023 - Oct 2025",
-      desc: "Working in a Cisco Project and focussing on how to design, implement, and maintain an organization's computer networks and udnerstanding the infrastructure that allows communication between devices",
+      desc: "Working in a Cisco Project and focussing on how to design, implement, and maintain an organization's computer networks and understanding the infrastructure that allows communication between devices",
       skills: [
         "C Programming",
         "Java",
@@ -243,7 +243,7 @@ export const Bio = {
     },
     {
       id: 2,
-      img: "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/Presidency_University%2C_Bangalore_logo.svg/220px-Presidency_University%2C_Bangalore_logo.svg.png",
+      img: "",
       school: "Presidency University, Bangalore",
       date: "Oct 2018 - Sep 2022",
       grade: "8.98 CGPA",
@@ -256,7 +256,7 @@ export const Bio = {
       school: "Monash University, Clayton Campus",
       date: "March 2026 - Present",
       grade: "",
-      desc: "",
+      desc: "(In Progress)",
       degree: "Master of Data Science",
     }
   ];
